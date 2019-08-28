@@ -6,13 +6,16 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
+
+import java.util.Map;
+
 public class LoginStepDefinitions {
     Pages pages = new Pages();
 
-    @Given("user is on the landing page")
-    public void user_is_on_the_landing_page() {
-        pages.loginPage().goToLandingPage();
-    }
+//    @Given("user is on the landing page")
+//    public void user_is_on_the_landing_page() {
+//        pages.loginPage().goToLandingPage();
+//    }
 
     @Then("user logs in as a store manager")
     public void user_logs_in_as_a_store_manager() {
@@ -54,5 +57,17 @@ public class LoginStepDefinitions {
 
         pages.loginPage().login(role);
     }
+
+    @Given("user logs in with following credentials")
+    public void user_logs_in_with_following_credentials(Map<String ,String> values) {
+
+
+        System.out.println(values);
+        pages.loginPage().login(values.get("username"), values.get("password"));
+
+    }
+
+
+
 }
 

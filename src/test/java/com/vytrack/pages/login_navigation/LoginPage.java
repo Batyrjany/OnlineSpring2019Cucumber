@@ -7,10 +7,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 
 public class LoginPage {
     public LoginPage(){PageFactory.initElements(Driver.getDriver(), this);}
+
     @FindBy(id = "prependedInput")
     @CacheLookup
     public WebElement userNameElement;
@@ -25,7 +27,7 @@ public class LoginPage {
     public WebElement forgotPasswordElement;
     @FindBy(tagName = "h2")
     public WebElement titleElement;
-    @FindBy(css = "[class=‘alert alert-error’] > div")
+    @FindBy(xpath = "//div[@class='alert alert-error']")
     public WebElement errorMessageElement;
 
     public void login(String username, String password){
@@ -55,6 +57,7 @@ public class LoginPage {
             username = ConfigurationReader.getProperty("salesmanagerusername");
             password = ConfigurationReader.getProperty("salesmanagerpassword");
         }
+       // BrowserUtils.waitForVisibility(userNameElement,5);
         userNameElement.sendKeys(username);
         passwordElement.sendKeys(password);
         loginButtonElement.click();

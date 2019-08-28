@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.vytrack.runners.FailedRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.vytrack.runners.FailedRunner
+initializationError(com.vytrack.runners.FailedRunner)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalArgumentException: Not a file or directory: /Users/batyrjany/IdeaProjects/OnlineSpring2019Cucumber/target/rerun.txt
+

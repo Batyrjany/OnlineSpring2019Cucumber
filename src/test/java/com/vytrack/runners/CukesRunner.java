@@ -5,9 +5,10 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         plugin = {
+                "json:target/cucumber.json",
                 "html:target/default-cucumber-reports"
         },
-        tags = {"@vehicles"},
+        tags = {"@login_with_outline_3"},
         features = {"src/test/resources/features" //to specify where are the features
         },
         //feature contains scenarios
@@ -19,4 +20,7 @@ import org.junit.runner.RunWith;
         dryRun = false
 )
 public class CukesRunner {
+
+
+
 }
