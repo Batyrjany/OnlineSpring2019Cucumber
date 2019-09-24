@@ -17,5 +17,8 @@ Feature: Login
   @driver
   Scenario: Login as a driver
     Given user is on the landing page
-    Then user logs in as a driver
+    Then user logs in as a "driver"
+    |driver|
+    |storemanager|
+    |salesmanager|
     And user verifies that "Quick Launchpad" page name is displayed

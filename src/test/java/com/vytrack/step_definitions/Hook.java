@@ -15,7 +15,7 @@ public class Hook {
         System.out.println(scenario.getSourceTagNames());
         System.out.println(scenario.getName());
         System.out.println("BEFORE");
-        Driver.getDriver().manage().window().maximize();
+//        Driver.getDriver().manage().window().maximize();
         Driver.getDriver().manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     }
     @After
