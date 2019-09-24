@@ -21,7 +21,6 @@ import org.junit.runner.RunWith;
         //dry run - to generate step definitions automatically
         //you will see them in the console output
         dryRun = false
-
 )
 public class CukesRunner2 {
 
