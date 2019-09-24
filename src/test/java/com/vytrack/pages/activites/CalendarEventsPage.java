@@ -28,7 +28,7 @@ public class CalendarEventsPage extends BasePage {
     @FindBy(css = "a[title='Reset']")
     public WebElement resetBtnElement;
 
-    @FindBy(css = "thead:nth-of-type(1) span[class='grid-header-cell__label']")
+    @FindBy(css = "[class='grid-header-cell__label']")
     public List<WebElement> headers;
 
     @FindBy(css = "[id^='date_selector_oro_calendar_event_form_start']")
@@ -212,7 +212,7 @@ public class CalendarEventsPage extends BasePage {
         return endDate.getAttribute("value");
     }
 
-    public String getSartTime() {
+    public String getStartTime() {
         return startTime.getAttribute("value");
     }
 
@@ -220,9 +220,9 @@ public class CalendarEventsPage extends BasePage {
         return endTime.getAttribute("value");
     }
 
-    public List<String> getTableHeaders()
-    {
+    public List<String> getTableHeaders() {
         waitUntilLoaderScreenDisappear();
         return BrowserUtils.getElementsText(headers);
     }
+
 }

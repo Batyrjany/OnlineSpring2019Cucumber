@@ -2,51 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e0c89b4-db01-4780-898f-0e79dc2495bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/FailedRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/CalendarEventsStepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/activities/calendar_events/AllCalendarEvents.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fleet/vehicles/CreateCar.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fleet/vehicles_fuel_logs/CreateVehicleFuelLogs.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/fleet/vehicles_fuel_logs/VehicleFuelLogs.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/OnlineSpring2019Cucumber.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/1.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/activites/CalendarEventsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/activites/CalendarEventsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/dashboards/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/dashboards/DashboardPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/fleet/VehiclesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/fleet/VehiclesPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/login_navigation/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/login_navigation/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/CalendarEventsStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/CalendarEventsStepDefinitions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/Hook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/LoginStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/LoginStepDefinitions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/TopMenuStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/TopMenuStepDefinitions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/VehiclesStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/VehiclesStepDefinitions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/BrowserUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/ConfigurationReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/ConfigurationReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/Pages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/Pages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/activities/calendar_events/AllCalendarEvents.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/activities/calendar_events/AllCalendarEvents.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/fleet/vehicles/CreateCar.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/fleet/vehicles/CreateCar.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/fleet/vehicles/Vehicles.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/fleet/vehicles/Vehicles.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/login/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/login/Login.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/topmenu/NavigationMenu.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/topmenu/NavigationMenu.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/embedded0.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports/embedded0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/pages/activites/CalendarEventsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/pages/activites/CalendarEventsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/pages/dashboards/DashboardPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/pages/dashboards/DashboardPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/pages/fleet/VehiclesPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/pages/fleet/VehiclesPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/pages/login_navigation/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/pages/login_navigation/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/runners/CukesRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/runners/CukesRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/step_definitions/Hook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/step_definitions/Hook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/step_definitions/LoginStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/step_definitions/LoginStepDefinitions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/step_definitions/TopMenuStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/step_definitions/TopMenuStepDefinitions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/step_definitions/VehiclesStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/step_definitions/VehiclesStepDefinitions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/utilities/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/utilities/BasePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/fleet/vehicles/Vehicles.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/fleet/vehicles/Vehicles.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/login/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/login/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/topmenu/NavigationMenu.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/topmenu/NavigationMenu.feature" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/classes/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,115 +40,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/login/Login.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1440">
-              <caret line="98" column="39" selection-start-line="98" selection-start-column="39" selection-end-line="98" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/topmenu/NavigationMenu.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/TopMenuStepDefinitions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1545">
-              <caret line="103" column="10" selection-start-line="8" selection-start-column="2" selection-end-line="103" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/LoginStepDefinitions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="914">
-              <caret line="70" selection-start-line="70" selection-end-line="70" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/pages/dashboards/DashboardPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="5" selection-start-line="17" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/pages/login_navigation/LoginPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/pages/fleet/VehiclesPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-356">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/utilities/BasePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-414">
-              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/pages/dashboards/ManageDashboards.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -180,33 +56,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/Pages.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/vytrack/pages/activites/CalendarEventsPage.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/activities/calendar_events/AllCalendarEvents.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/CalendarEventsStepDefinitions.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/vytrack/pages/fleet/VehiclesPage.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/fleet/vehicles/CreateCar.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/com/vytrack/pages/login_navigation/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/Hook.java" />
-        <option value="$PROJECT_DIR$/configuration.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/VehiclesStepDefinitions.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/fleet/vehicles/Vehicles.feature" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/topmenu/NavigationMenu.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/TopMenuStepDefinitions.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/vytrack/runners/FailedRunner.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/BasePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/vytrack/pages/dashboards/DashboardPage.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/login/Login.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/LoginStepDefinitions.java" />
-      </list>
-    </option>
-  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -219,197 +68,6 @@
     <option name="y" value="-1050" />
     <option name="width" value="1680" />
     <option name="height" value="1050" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="OnlineSpring2019Cucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineSpring2019Cucumber" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineSpring2019Cucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineSpring2019Cucumber" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineSpring2019Cucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineSpring2019Cucumber" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineSpring2019Cucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineSpring2019Cucumber" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineSpring2019Cucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineSpring2019Cucumber" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineSpring2019Cucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineSpring2019Cucumber" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vytrack" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineSpring2019Cucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineSpring2019Cucumber" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vytrack" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineSpring2019Cucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineSpring2019Cucumber" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vytrack" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="activites" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineSpring2019Cucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineSpring2019Cucumber" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vytrack" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="dashboards" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineSpring2019Cucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineSpring2019Cucumber" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vytrack" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="fleet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineSpring2019Cucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineSpring2019Cucumber" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vytrack" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="login_navigation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineSpring2019Cucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineSpring2019Cucumber" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vytrack" type="462c0819:PsiDirectoryNode" />
-              <item name="runners" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineSpring2019Cucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineSpring2019Cucumber" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vytrack" type="462c0819:PsiDirectoryNode" />
-              <item name="step_definitions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineSpring2019Cucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineSpring2019Cucumber" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vytrack" type="462c0819:PsiDirectoryNode" />
-              <item name="utilities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineSpring2019Cucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineSpring2019Cucumber" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineSpring2019Cucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineSpring2019Cucumber" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineSpring2019Cucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineSpring2019Cucumber" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="fleet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineSpring2019Cucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineSpring2019Cucumber" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="fleet" type="462c0819:PsiDirectoryNode" />
-              <item name="vehicles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineSpring2019Cucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineSpring2019Cucumber" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineSpring2019Cucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineSpring2019Cucumber" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="topmenu" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -505,316 +163,16 @@
       <configuration name="CukesRunner" configurationId="JUnit" />
     </history-entry>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="634" y="-1050" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31684983" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.57003653" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.34128168" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32987553" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32173383" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.57003653" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.27892813" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32987553" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout-to-restore>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/OnlineSpring2019Cucumber.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Btrix24/src/test/java/com/btrix24/utilities/ConfigurationReader.java" />
-    <entry file="file://$PROJECT_DIR$/../Btrix24/src/test/java/com/btrix24/utilities/Driver.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="124" column="19" selection-start-line="124" selection-start-column="19" selection-end-line="124" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/cucumber.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/fleet/vehicles_fuel_logs/CreateVehicleFuelLogs.feature">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/fleet/vehicles_fuel_logs/VehicleFuelLogs.feature">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/activities/calendar_events/AllCalendarEvents.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/cucumber-html-reports/embeddings/embedding_-1731246901.png" />
-    <entry file="file://$PROJECT_DIR$/../Btrix24/src/test/java/com/btrix24/utilities/BrowserUtils.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Long.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="1141" column="23" selection-start-line="1141" selection-start-column="23" selection-end-line="1141" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/default-cucumber-reports/embedded4.png" />
-    <entry file="file://$PROJECT_DIR$/target/default-cucumber-reports/embedded5.png" />
-    <entry file="file://$PROJECT_DIR$/target/default-cucumber-reports/formatter.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/default-cucumber-reports/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/default-cucumber-reports/embedded3.png" />
-    <entry file="file://$PROJECT_DIR$/target/default-cucumber-reports/embedded2.png" />
-    <entry file="file://$PROJECT_DIR$/target/default-cucumber-reports/embedded1.png" />
-    <entry file="file://$PROJECT_DIR$/target/default-cucumber-reports/report.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/default-cucumber-reports/embedded0.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/VehiclesStepDefinitions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="57" column="5" selection-start-line="49" selection-start-column="94" selection-end-line="57" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2260#2261#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/fleet/vehicles/Vehicles.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Btrix24/src/test/java/com/btrix24/utilities/BasePage.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/runners/FailedRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="23" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/utilities/BrowserUtils.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/utilities/Driver.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/Hook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/utilities/Pages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/fleet/vehicles/CreateCar.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="43" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/utilities/ConfigurationReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configuration.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/pages/activites/CallsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/pages/activites/CalendarEventsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1978">
-          <caret line="224" column="41" selection-start-line="224" selection-start-column="41" selection-end-line="224" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/CalendarEventsStepDefinitions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/login/Login.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="98" column="39" selection-start-line="98" selection-start-column="39" selection-end-line="98" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/topmenu/NavigationMenu.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/TopMenuStepDefinitions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/pages/login_navigation/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/pages/dashboards/DashboardPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="5" selection-start-line="17" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/pages/dashboards/ManageDashboards.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/pages/fleet/VehiclesPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-356">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/LoginStepDefinitions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="914">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/utilities/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-414">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1545">
-          <caret line="103" column="10" selection-start-line="8" selection-start-column="2" selection-end-line="103" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="masterDetails">
     <states>

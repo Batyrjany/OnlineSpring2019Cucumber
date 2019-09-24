@@ -11,10 +11,8 @@ public class TopMenuStepDefinitions {
 
     @Then("user navigates to {string} and {string}")
     public void user_navigates_to_and(String tab, String module) {
-
-
-            pages.dashboardPage().navigateToModule(tab, module);
-        }
+        pages.dashboardPage().navigateToModule(tab, module);
+    }
 
     @Then("user name should be {string}")
     public void user_name_should_be(String expected) {
@@ -26,5 +24,4 @@ public class TopMenuStepDefinitions {
         Assert.assertEquals(expected, pages.dashboardPage().getPageTitle());
     }
 
-    }
-
+}

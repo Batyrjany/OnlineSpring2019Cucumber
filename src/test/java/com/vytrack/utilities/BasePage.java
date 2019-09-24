@@ -13,7 +13,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public abstract class BasePage {
     //we don't want to access these variables outside
     private static final Logger logger = LogManager.getLogger();
-   // WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Long.valueOf(ConfigurationReader.getProperty("SHORT_WAIT=10")));
 
 
     @FindBy(css = "div[class='loader-mask shown']")
@@ -52,9 +51,10 @@ public abstract class BasePage {
         try {
             WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Integer.valueOf(ConfigurationReader.getProperty("SHORT_WAIT")));
             wait.until(ExpectedConditions.invisibilityOf(loaderMask));
+            logger.info("Loader mask gone...");
         } catch (Exception e) {
             logger.error("Loader mask doesn't present.");
-            System.out.println("Loader mask doesn't present.");
+            logger.error(e);
         }
     }
 
@@ -91,28 +91,14 @@ public abstract class BasePage {
         }
     }
 
-//    public void navigateToModule(String tab, String module) {
-//        String tabLocator = "//span[normalize-space()='" + tab + "' and contains(@class, 'title title-level-1')]";
-//        String moduleLocator = "//span[normalize-space()='" + module + "' and contains(@class, 'title title-level-2')]";
-//        try {
-//            BrowserUtils.waitForClickablility(By.xpath(tabLocator), Integer.valueOf(ConfigurationReader.getProperty("SHORT_WAIT")));
-//            WebElement tabElement = Driver.getDriver().findElement(By.xpath(tabLocator));
-//            new Actions(Driver.getDriver()).moveToElement(tabElement).pause(200).doubleClick(tabElement).build().perform();
-//        } catch (Exception e) {
-//            logger.error("Failed to click on :: "+tab);
-//            logger.error(e);
-//            BrowserUtils.clickWithWait(By.xpath(tabLocator), Integer.valueOf(ConfigurationReader.getProperty("SHORT_WAIT")));
-//        }
-//        try {
-//            BrowserUtils.waitForClickablility(By.xpath(moduleLocator), Integer.valueOf(ConfigurationReader.getProperty("SHORT_WAIT")));
-//            WebElement modElement = Driver.getDriver().findElement(By.xpath(moduleLocator));
-//            new Actions(Driver.getDriver()).moveToElement(modElement).pause(200).click(modElement).build().perform();
-//        } catch (Exception e) {
-//            logger.error("Failed to click on :: "+module);
-//            logger.error(e);
-//            BrowserUtils.clickWithWait(By.xpath(moduleLocator), Integer.valueOf(ConfigurationReader.getProperty("SHORT_WAIT")));
-//
-//        }
-//    }
+    public String getUserMenuName(){
+        waitUntilLoaderScreenDisappear();
+        return userMenuName.getText();
+    }
+
+    public String getPageTitle(){
+        waitUntilLoaderScreenDisappear();
+        return Driver.getDriver().getTitle();
+    }
 
 }
