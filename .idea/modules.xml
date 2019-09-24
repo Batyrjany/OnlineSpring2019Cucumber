@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/OnlineSpring2019Cucumber.iml" filepath="$PROJECT_DIR$/OnlineSpring2019Cucumber.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/OnlineSpring2019Cucumber.iml" filepath="$PROJECT_DIR$/.idea/OnlineSpring2019Cucumber.iml" />
     </modules>
   </component>
 </project>

@@ -10,6 +10,8 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+
+
 public abstract class BasePage {
     //we don't want to access these variables outside
     private static final Logger logger = LogManager.getLogger();
@@ -21,6 +23,9 @@ public abstract class BasePage {
 
     @FindBy(css = "h1[class='oro-subtitle']")
     protected WebElement pageSubTitle;
+
+    @FindBy(css = "#user-menu > a")
+    protected WebElement userMenuName;
 
 
     public BasePage() {
@@ -48,9 +53,10 @@ public abstract class BasePage {
         try {
             WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Integer.valueOf(ConfigurationReader.getProperty("SHORT_WAIT")));
             wait.until(ExpectedConditions.invisibilityOf(loaderMask));
+            logger.info("Loader mask gone...");
         } catch (Exception e) {
             logger.error("Loader mask doesn't present.");
-            System.out.println("Loader mask doesn't present.");
+            logger.error(e);
         }
     }
 
@@ -85,6 +91,16 @@ public abstract class BasePage {
             BrowserUtils.waitForStaleElement(Driver.getDriver().findElement(By.xpath(moduleLocator)));
             BrowserUtils.clickWithTimeOut(Driver.getDriver().findElement(By.xpath(moduleLocator)),  Integer.valueOf(ConfigurationReader.getProperty("SHORT_WAIT")));
         }
+    }
+
+    public String getUserMenuName(){
+        waitUntilLoaderScreenDisappear();
+        return userMenuName.getText();
+    }
+
+    public String getPageTitle(){
+        waitUntilLoaderScreenDisappear();
+        return Driver.getDriver().getTitle();
     }
 
 }

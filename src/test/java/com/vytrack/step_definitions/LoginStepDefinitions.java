@@ -1,4 +1,5 @@
 package com.vytrack.step_definitions;
+
 import com.vytrack.utilities.ConfigurationReader;
 import com.vytrack.utilities.Driver;
 import com.vytrack.utilities.Pages;
@@ -6,7 +7,11 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
+
+import java.util.Map;
+
 public class LoginStepDefinitions {
+
     Pages pages = new Pages();
 
     @Given("user is on the landing page")
@@ -23,12 +28,12 @@ public class LoginStepDefinitions {
 
     @Then("user verifies that {string} page name is displayed")
     public void user_verifies_that_page_name_is_displayed(String expected) {
-        Assert.assertEquals(expected, pages.dashboardPage().getPageSubTitle());
+        Assert.assertEquals(expected,  pages.dashboardPage().getPageSubTitle());
     }
 
     @Then("user logs in with {string} username and {string} password")
     public void user_logs_in_with_username_and_password(String string, String string2) {
-        pages.loginPage().login(string, string2);
+       pages.loginPage().login(string, string2);
     }
 
     @Then("user verifies that {string} warning message is displayed")
@@ -39,7 +44,7 @@ public class LoginStepDefinitions {
     //this is temporary solution until we start using hooks
     @Then("user quits")
     public void user_quits() {
-        Driver.closeDriver();
+       Driver.closeDriver();
     }
 
     @Then("user logs in as a driver")
@@ -49,10 +54,15 @@ public class LoginStepDefinitions {
         pages.loginPage().login(username, password);
     }
 
-    @Then("user logs in as a {string}")
+    @When("user logs in as a {string}")
     public void user_logs_in_as_a(String role) {
-
         pages.loginPage().login(role);
     }
-}
 
+    @Given("user logs in with following credentials")
+    public void user_logs_in_with_following_credentials(Map<String, String> values) {
+        System.out.println(values);
+        pages.loginPage().login(values.get("username"), values.get("password"));
+    }
+
+}

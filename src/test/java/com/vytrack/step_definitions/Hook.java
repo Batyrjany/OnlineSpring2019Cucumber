@@ -1,4 +1,7 @@
 package com.vytrack.step_definitions;
+
+
+import com.vytrack.utilities.ConfigurationReader;
 import com.vytrack.utilities.Driver;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
@@ -9,7 +12,7 @@ import org.openqa.selenium.TakesScreenshot;
 import java.util.concurrent.TimeUnit;
 
 public class Hook {
-    //default that runs for any scenario
+    //default HOOK runs for any scenario
     @Before
     public void setup(Scenario scenario){
         System.out.println(scenario.getSourceTagNames());
@@ -17,7 +20,9 @@ public class Hook {
         System.out.println("BEFORE");
 //        Driver.getDriver().manage().window().maximize();
         Driver.getDriver().manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        Driver.getDriver().get(ConfigurationReader.getProperty("url" + ConfigurationReader.getProperty("environment")));
     }
+
     @After
     public void teardown(Scenario scenario){
         if(scenario.isFailed()){
@@ -29,6 +34,12 @@ public class Hook {
         Driver.closeDriver();
         System.out.println("AFTER");
     }
+
+
+
+
+
+
 //    @After(value = "@storemanager", order = 1)
 //    public void teardownForStoreManager(){
 //        System.out.println("AFTER FOR STORE MANAGER");
@@ -42,4 +53,5 @@ public class Hook {
 //    public void setupForStoreManager(Scenario scenario){
 //        System.out.println("BEFORE FOR STORE MANAGER");
 //    }
+
 }
