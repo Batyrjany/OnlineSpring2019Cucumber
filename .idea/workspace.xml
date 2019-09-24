@@ -2,35 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e0c89b4-db01-4780-898f-0e79dc2495bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/OnlineSpring2019Cucumber.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/1.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/activites/CalendarEventsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/activites/CalendarEventsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/fleet/VehiclesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/fleet/VehiclesPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/login_navigation/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/login_navigation/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/CalendarEventsStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/CalendarEventsStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/Hook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/LoginStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/LoginStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/TopMenuStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/TopMenuStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/VehiclesStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/VehiclesStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/Pages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/Pages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/activities/calendar_events/AllCalendarEvents.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/activities/calendar_events/AllCalendarEvents.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/fleet/vehicles/CreateCar.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/fleet/vehicles/CreateCar.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/fleet/vehicles/Vehicles.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/fleet/vehicles/Vehicles.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/login/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/login/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/topmenu/NavigationMenu.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/topmenu/NavigationMenu.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/pages/activites/CalendarEventsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/pages/activites/CalendarEventsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/pages/fleet/VehiclesPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/pages/fleet/VehiclesPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/pages/login_navigation/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/pages/login_navigation/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/runners/CukesRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/step_definitions/CalendarEventsStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/step_definitions/CalendarEventsStepDefinitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/step_definitions/Hook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/step_definitions/Hook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/step_definitions/LoginStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/step_definitions/LoginStepDefinitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/step_definitions/TopMenuStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/step_definitions/TopMenuStepDefinitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/step_definitions/VehiclesStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/step_definitions/VehiclesStepDefinitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/utilities/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/utilities/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/utilities/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/utilities/Driver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/utilities/Pages.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/utilities/Pages.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/activities/calendar_events/AllCalendarEvents.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/activities/calendar_events/AllCalendarEvents.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/fleet/vehicles/CreateCar.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/fleet/vehicles/CreateCar.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/fleet/vehicles/Vehicles.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/fleet/vehicles/Vehicles.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/login/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/login/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/topmenu/NavigationMenu.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/topmenu/NavigationMenu.feature" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
