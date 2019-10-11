@@ -72,7 +72,7 @@ public class Driver {
                     DesiredCapabilities capabilities = new DesiredCapabilities().chrome();
                     capabilities.setPlatform(Platform.ANY);
                     try {
-                        driver = new RemoteWebDriver(new URL("http://18.209.44.3:4444/wd/hub"), capabilities);
+                        driver = new RemoteWebDriver(new URL("http://10.0.0.246:4444/wd/hub"), capabilities);
                     } catch (MalformedURLException e) {
                         e.printStackTrace();
                     }

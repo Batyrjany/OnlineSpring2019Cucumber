@@ -1,7 +1,7 @@
 node {
    stage('Cloning project from Github') { // for display purposes
       // Get some code from a GitHub repository
-     git 'https://github.com/CybertekSchool/OnlineSpring2019Cucumber.git'
+     git 'https://github.com/Batyrjany/OnlineSpring2019Cucumber.git'
    }
    
      stage('Running Tests') {

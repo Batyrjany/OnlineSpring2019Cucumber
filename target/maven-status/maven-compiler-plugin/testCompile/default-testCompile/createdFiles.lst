@@ -1,3 +1,4 @@
+com/vytrack/runners/RegressionRunner2.class
 com/vytrack/pages/dashboards/ManageDashboards.class
 com/vytrack/utilities/BrowserUtils.class
 com/vytrack/runners/CukesRunner2.class
@@ -5,6 +6,7 @@ com/vytrack/runners/CukesRunner4.class
 com/vytrack/pages/activites/CalendarEventsPage.class
 com/vytrack/utilities/Pages.class
 com/vytrack/runners/FailedRunner.class
+com/vytrack/runners/RegressionRunner4.class
 com/vytrack/utilities/Driver.class
 com/vytrack/step_definitions/CalendarEventsStepDefinitions.class
 com/vytrack/runners/CukesRunner1.class
@@ -15,8 +17,10 @@ com/vytrack/utilities/BrowserUtils$1.class
 com/vytrack/step_definitions/LoginStepDefinitions.class
 com/vytrack/pages/dashboards/DashboardPage.class
 com/vytrack/step_definitions/VehiclesStepDefinitions.class
+com/vytrack/runners/RegressionRunner1.class
 com/vytrack/runners/CukesRunner3.class
 com/vytrack/pages/fleet/VehiclesPage.class
 com/vytrack/step_definitions/TopMenuStepDefinitions.class
 com/vytrack/pages/login_navigation/LoginPage.class
 com/vytrack/pages/activites/CallsPage.class
+com/vytrack/runners/RegressionRunner3.class
