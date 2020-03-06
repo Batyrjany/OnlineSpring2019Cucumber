@@ -45,7 +45,7 @@ node {
                     
                  </style>
                  </html>
-                 ''', subject: 'SMOKE TEST FALIED!', to: 'vasyl@cybertekschool.com'
+                 ''', subject: 'SMOKE TEST FALIED!', to: 'b.janyew@gmail.com'
           } else {
                 emailext body: '''<!DOCTYPE html>
 <html>
@@ -73,7 +73,7 @@ node {
                  <style type="text/css">
                     
                  </style>
-                 </html>''', subject: 'SMOKE TEST PASSED!', to: 'vasyl@cybertekschool.com'
+                 </html>''', subject: 'SMOKE TEST PASSED!', to: 'b.janyew@gmail.com'
         
         } 
     }
